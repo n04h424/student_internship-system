@@ -1,17 +1,24 @@
 <!DOCTYPE html>
+{% load static %}
 
 <html>
 <head>
     <title>Internship System</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 
 <body>
     <h1>
         Welcome to the Internship Management System
     </h1>
-
+    <br>
     <p>
         This is the starting page. More features will be added soon.
+    </p>
+    <br>
+    <p>
+        Check out my <a href="about/">About</a> page
+        <!-- when clicking on the link above the url will be set to http://127.0.0.1:8000/+"about/" -->
     </p>
 </body>
 </html>

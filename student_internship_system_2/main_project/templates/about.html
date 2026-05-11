@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-
+{% load static %}
 <html>
     
 <head>
     <title>About - Internship System</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!-- use the stylesheet in the root directory in the folder static -->
 </head>
 
 <body>
     <h1>
         About the Internship Management System
     </h1>
-
+    <br>
     <p>
         This system helps students track their internships and allows administrators to manage student and internship information efficiently.
+    </p>
+    <br>
+    <p>
+        Check out my <a href="/">Home</a> page.
+        <!-- when clicking on the link above the url will be set to http://127.0.0.1:8000/+"" -->
     </p>
     
 </body>

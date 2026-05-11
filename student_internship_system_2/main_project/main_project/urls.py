@@ -26,7 +26,7 @@ urlpatterns =   [
                     path('',views.homepage),
                     # when http://127.0.0.1:8000/ has nothing after
                     # go to the views.py of the current level, look for homepage function and carry it out
-                    
+
                     path('about/',views.about)
                     # when http://127.0.0.1:8000/ has 'about/' after
                     # go to the views.py of the current level, look for homepage function and carry it out
